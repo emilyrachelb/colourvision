@@ -178,3 +178,6 @@ venv.bak/
 .mypy_cache/
 
 wget-log
+*/bin/
+*/include/
+*/lib/
