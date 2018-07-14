@@ -7,138 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C51F637E5D67421D1621A33 /* Pods_colourvisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31451FD5D4A0C3A8E6C21251 /* Pods_colourvisionTests.framework */; };
-		A1EEA52620F9E67700C2A0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EEA52520F9E67700C2A0AF /* AppDelegate.swift */; };
-		A1EEA52820F9E67700C2A0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EEA52720F9E67700C2A0AF /* ViewController.swift */; };
-		A1EEA52A20F9E67800C2A0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EEA52920F9E67800C2A0AF /* Assets.xcassets */; };
-		A1EEA52D20F9E67800C2A0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EEA52B20F9E67800C2A0AF /* Main.storyboard */; };
-		A1EEA53920F9E67800C2A0AF /* colourvisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EEA53820F9E67800C2A0AF /* colourvisionTests.swift */; };
-		D64DD4ACAA5329EC728F48F7 /* Pods_colourvision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96484429E855DD6632AD78F /* Pods_colourvision.framework */; };
+		073339A24030C2180993E5AF /* Pods_colourvisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639B94440FEB7EAB80B757F /* Pods_colourvisionTests.framework */; };
+		A12AA27720F9E924000CAAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AA27620F9E924000CAAFE /* AppDelegate.swift */; };
+		A12AA27920F9E924000CAAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AA27820F9E924000CAAFE /* ViewController.swift */; };
+		A12AA27C20F9E924000CAAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AA27A20F9E924000CAAFE /* Main.storyboard */; };
+		A12AA27E20F9E925000CAAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12AA27D20F9E925000CAAFE /* Assets.xcassets */; };
+		A12AA28120F9E925000CAAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AA27F20F9E925000CAAFE /* LaunchScreen.storyboard */; };
+		A12AA28C20F9E925000CAAFE /* colourvisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AA28B20F9E925000CAAFE /* colourvisionTests.swift */; };
+		E188F28AA3231D9D63E1C86E /* Pods_colourvision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E81F7DA8A126A823DD6A732 /* Pods_colourvision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1EEA53520F9E67800C2A0AF /* PBXContainerItemProxy */ = {
+		A12AA28820F9E925000CAAFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A1EEA51A20F9E67600C2A0AF /* Project object */;
+			containerPortal = A12AA26B20F9E924000CAAFE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1EEA52120F9E67700C2A0AF;
+			remoteGlobalIDString = A12AA27220F9E924000CAAFE;
 			remoteInfo = colourvision;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31451FD5D4A0C3A8E6C21251 /* Pods_colourvisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colourvisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6076F8753F4AFD32587B2813 /* Pods-colourvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colourvision/Pods-colourvision.debug.xcconfig"; sourceTree = "<group>"; };
-		714A6AE688BFA6B36DB460D1 /* Pods-colourvisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvisionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colourvisionTests/Pods-colourvisionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1EEA52220F9E67700C2A0AF /* colourvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colourvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1EEA52520F9E67700C2A0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1EEA52720F9E67700C2A0AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1EEA52920F9E67800C2A0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1EEA52C20F9E67800C2A0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1EEA52E20F9E67800C2A0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1EEA52F20F9E67800C2A0AF /* colourvision.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = colourvision.entitlements; sourceTree = "<group>"; };
-		A1EEA53420F9E67800C2A0AF /* colourvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colourvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1EEA53820F9E67800C2A0AF /* colourvisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourvisionTests.swift; sourceTree = "<group>"; };
-		A1EEA53A20F9E67800C2A0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D849AEF8CB068E4DFC34D87A /* Pods-colourvisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvisionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colourvisionTests/Pods-colourvisionTests.release.xcconfig"; sourceTree = "<group>"; };
-		E96484429E855DD6632AD78F /* Pods_colourvision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colourvision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFB2CCB546678DE3894D171F /* Pods-colourvision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvision.release.xcconfig"; path = "Pods/Target Support Files/Pods-colourvision/Pods-colourvision.release.xcconfig"; sourceTree = "<group>"; };
+		0E454F9AE65400AD93F26161 /* Pods-colourvision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvision.release.xcconfig"; path = "Pods/Target Support Files/Pods-colourvision/Pods-colourvision.release.xcconfig"; sourceTree = "<group>"; };
+		5D824376952D56CD282D4FD9 /* Pods-colourvisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvisionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colourvisionTests/Pods-colourvisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E81F7DA8A126A823DD6A732 /* Pods_colourvision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colourvision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6639B94440FEB7EAB80B757F /* Pods_colourvisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colourvisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12AA27320F9E924000CAAFE /* colourvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colourvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12AA27620F9E924000CAAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12AA27820F9E924000CAAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A12AA27B20F9E924000CAAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12AA27D20F9E925000CAAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12AA28020F9E925000CAAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12AA28220F9E925000CAAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12AA28720F9E925000CAAFE /* colourvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colourvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12AA28B20F9E925000CAAFE /* colourvisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourvisionTests.swift; sourceTree = "<group>"; };
+		A12AA28D20F9E925000CAAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A8719C00E86D2717305D77 /* Pods-colourvisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvisionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colourvisionTests/Pods-colourvisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		E42070AD5B481B19F594174A /* Pods-colourvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colourvision/Pods-colourvision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1EEA51F20F9E67700C2A0AF /* Frameworks */ = {
+		A12AA27020F9E924000CAAFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64DD4ACAA5329EC728F48F7 /* Pods_colourvision.framework in Frameworks */,
+				E188F28AA3231D9D63E1C86E /* Pods_colourvision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1EEA53120F9E67800C2A0AF /* Frameworks */ = {
+		A12AA28420F9E925000CAAFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C51F637E5D67421D1621A33 /* Pods_colourvisionTests.framework in Frameworks */,
+				073339A24030C2180993E5AF /* Pods_colourvisionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1EEA51920F9E67600C2A0AF = {
+		0C5151745045A800A3B2D471 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1EEA52420F9E67700C2A0AF /* colourvision */,
-				A1EEA53720F9E67800C2A0AF /* colourvisionTests */,
-				A1EEA52320F9E67700C2A0AF /* Products */,
-				C00E45BD778D55BF534C7F44 /* Pods */,
-				DCE0C90286F94E498FB20A68 /* Frameworks */,
+				5E81F7DA8A126A823DD6A732 /* Pods_colourvision.framework */,
+				6639B94440FEB7EAB80B757F /* Pods_colourvisionTests.framework */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A1EEA52320F9E67700C2A0AF /* Products */ = {
+		4A5E2F72F209392865477004 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1EEA52220F9E67700C2A0AF /* colourvision.app */,
-				A1EEA53420F9E67800C2A0AF /* colourvisionTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A1EEA52420F9E67700C2A0AF /* colourvision */ = {
-			isa = PBXGroup;
-			children = (
-				A1EEA52520F9E67700C2A0AF /* AppDelegate.swift */,
-				A1EEA52720F9E67700C2A0AF /* ViewController.swift */,
-				A1EEA52920F9E67800C2A0AF /* Assets.xcassets */,
-				A1EEA52B20F9E67800C2A0AF /* Main.storyboard */,
-				A1EEA52E20F9E67800C2A0AF /* Info.plist */,
-				A1EEA52F20F9E67800C2A0AF /* colourvision.entitlements */,
-			);
-			path = colourvision;
-			sourceTree = "<group>";
-		};
-		A1EEA53720F9E67800C2A0AF /* colourvisionTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1EEA53820F9E67800C2A0AF /* colourvisionTests.swift */,
-				A1EEA53A20F9E67800C2A0AF /* Info.plist */,
-			);
-			path = colourvisionTests;
-			sourceTree = "<group>";
-		};
-		C00E45BD778D55BF534C7F44 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6076F8753F4AFD32587B2813 /* Pods-colourvision.debug.xcconfig */,
-				FFB2CCB546678DE3894D171F /* Pods-colourvision.release.xcconfig */,
-				714A6AE688BFA6B36DB460D1 /* Pods-colourvisionTests.debug.xcconfig */,
-				D849AEF8CB068E4DFC34D87A /* Pods-colourvisionTests.release.xcconfig */,
+				E42070AD5B481B19F594174A /* Pods-colourvision.debug.xcconfig */,
+				0E454F9AE65400AD93F26161 /* Pods-colourvision.release.xcconfig */,
+				5D824376952D56CD282D4FD9 /* Pods-colourvisionTests.debug.xcconfig */,
+				A6A8719C00E86D2717305D77 /* Pods-colourvisionTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DCE0C90286F94E498FB20A68 /* Frameworks */ = {
+		A12AA26A20F9E924000CAAFE = {
 			isa = PBXGroup;
 			children = (
-				E96484429E855DD6632AD78F /* Pods_colourvision.framework */,
-				31451FD5D4A0C3A8E6C21251 /* Pods_colourvisionTests.framework */,
+				A12AA27520F9E924000CAAFE /* colourvision */,
+				A12AA28A20F9E925000CAAFE /* colourvisionTests */,
+				A12AA27420F9E924000CAAFE /* Products */,
+				4A5E2F72F209392865477004 /* Pods */,
+				0C5151745045A800A3B2D471 /* Frameworks */,
 			);
-			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A12AA27420F9E924000CAAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12AA27320F9E924000CAAFE /* colourvision.app */,
+				A12AA28720F9E925000CAAFE /* colourvisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12AA27520F9E924000CAAFE /* colourvision */ = {
+			isa = PBXGroup;
+			children = (
+				A12AA27620F9E924000CAAFE /* AppDelegate.swift */,
+				A12AA27820F9E924000CAAFE /* ViewController.swift */,
+				A12AA27A20F9E924000CAAFE /* Main.storyboard */,
+				A12AA27D20F9E925000CAAFE /* Assets.xcassets */,
+				A12AA27F20F9E925000CAAFE /* LaunchScreen.storyboard */,
+				A12AA28220F9E925000CAAFE /* Info.plist */,
+			);
+			path = colourvision;
+			sourceTree = "<group>";
+		};
+		A12AA28A20F9E925000CAAFE /* colourvisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12AA28B20F9E925000CAAFE /* colourvisionTests.swift */,
+				A12AA28D20F9E925000CAAFE /* Info.plist */,
+			);
+			path = colourvisionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1EEA52120F9E67700C2A0AF /* colourvision */ = {
+		A12AA27220F9E924000CAAFE /* colourvision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1EEA53D20F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvision" */;
+			buildConfigurationList = A12AA29020F9E925000CAAFE /* Build configuration list for PBXNativeTarget "colourvision" */;
 			buildPhases = (
-				12EB62146256313A99AC0BBF /* [CP] Check Pods Manifest.lock */,
-				A1EEA51E20F9E67700C2A0AF /* Sources */,
-				A1EEA51F20F9E67700C2A0AF /* Frameworks */,
-				A1EEA52020F9E67700C2A0AF /* Resources */,
-				41B961D0C0257330FB0E4106 /* [CP] Embed Pods Frameworks */,
+				A0041ACE68A427A35865991F /* [CP] Check Pods Manifest.lock */,
+				A12AA26F20F9E924000CAAFE /* Sources */,
+				A12AA27020F9E924000CAAFE /* Frameworks */,
+				A12AA27120F9E924000CAAFE /* Resources */,
+				503A6358D1044480C47B8927 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,48 +147,48 @@
 			);
 			name = colourvision;
 			productName = colourvision;
-			productReference = A1EEA52220F9E67700C2A0AF /* colourvision.app */;
+			productReference = A12AA27320F9E924000CAAFE /* colourvision.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1EEA53320F9E67800C2A0AF /* colourvisionTests */ = {
+		A12AA28620F9E925000CAAFE /* colourvisionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1EEA54020F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvisionTests" */;
+			buildConfigurationList = A12AA29320F9E925000CAAFE /* Build configuration list for PBXNativeTarget "colourvisionTests" */;
 			buildPhases = (
-				C2680C48AEF5CDBBA9D15DDA /* [CP] Check Pods Manifest.lock */,
-				A1EEA53020F9E67800C2A0AF /* Sources */,
-				A1EEA53120F9E67800C2A0AF /* Frameworks */,
-				A1EEA53220F9E67800C2A0AF /* Resources */,
+				AA80757E227E03A542602230 /* [CP] Check Pods Manifest.lock */,
+				A12AA28320F9E925000CAAFE /* Sources */,
+				A12AA28420F9E925000CAAFE /* Frameworks */,
+				A12AA28520F9E925000CAAFE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1EEA53620F9E67800C2A0AF /* PBXTargetDependency */,
+				A12AA28920F9E925000CAAFE /* PBXTargetDependency */,
 			);
 			name = colourvisionTests;
 			productName = colourvisionTests;
-			productReference = A1EEA53420F9E67800C2A0AF /* colourvisionTests.xctest */;
+			productReference = A12AA28720F9E925000CAAFE /* colourvisionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1EEA51A20F9E67600C2A0AF /* Project object */ = {
+		A12AA26B20F9E924000CAAFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Samantha Emily-Rachel Belnavis";
 				TargetAttributes = {
-					A1EEA52120F9E67700C2A0AF = {
+					A12AA27220F9E924000CAAFE = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					A1EEA53320F9E67800C2A0AF = {
+					A12AA28620F9E925000CAAFE = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = A1EEA52120F9E67700C2A0AF;
+						TestTargetID = A12AA27220F9E924000CAAFE;
 					};
 				};
 			};
-			buildConfigurationList = A1EEA51D20F9E67600C2A0AF /* Build configuration list for PBXProject "colourvision" */;
+			buildConfigurationList = A12AA26E20F9E924000CAAFE /* Build configuration list for PBXProject "colourvision" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,28 +196,29 @@
 				en,
 				Base,
 			);
-			mainGroup = A1EEA51920F9E67600C2A0AF;
-			productRefGroup = A1EEA52320F9E67700C2A0AF /* Products */;
+			mainGroup = A12AA26A20F9E924000CAAFE;
+			productRefGroup = A12AA27420F9E924000CAAFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1EEA52120F9E67700C2A0AF /* colourvision */,
-				A1EEA53320F9E67800C2A0AF /* colourvisionTests */,
+				A12AA27220F9E924000CAAFE /* colourvision */,
+				A12AA28620F9E925000CAAFE /* colourvisionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1EEA52020F9E67700C2A0AF /* Resources */ = {
+		A12AA27120F9E924000CAAFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EEA52A20F9E67800C2A0AF /* Assets.xcassets in Resources */,
-				A1EEA52D20F9E67800C2A0AF /* Main.storyboard in Resources */,
+				A12AA28120F9E925000CAAFE /* LaunchScreen.storyboard in Resources */,
+				A12AA27E20F9E925000CAAFE /* Assets.xcassets in Resources */,
+				A12AA27C20F9E924000CAAFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1EEA53220F9E67800C2A0AF /* Resources */ = {
+		A12AA28520F9E925000CAAFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,25 +228,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12EB62146256313A99AC0BBF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-colourvision-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41B961D0C0257330FB0E4106 /* [CP] Embed Pods Frameworks */ = {
+		503A6358D1044480C47B8927 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,7 +256,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-colourvision/Pods-colourvision-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2680C48AEF5CDBBA9D15DDA /* [CP] Check Pods Manifest.lock */ = {
+		A0041ACE68A427A35865991F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colourvision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA80757E227E03A542602230 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,46 +295,54 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1EEA51E20F9E67700C2A0AF /* Sources */ = {
+		A12AA26F20F9E924000CAAFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EEA52820F9E67700C2A0AF /* ViewController.swift in Sources */,
-				A1EEA52620F9E67700C2A0AF /* AppDelegate.swift in Sources */,
+				A12AA27920F9E924000CAAFE /* ViewController.swift in Sources */,
+				A12AA27720F9E924000CAAFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1EEA53020F9E67800C2A0AF /* Sources */ = {
+		A12AA28320F9E925000CAAFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EEA53920F9E67800C2A0AF /* colourvisionTests.swift in Sources */,
+				A12AA28C20F9E925000CAAFE /* colourvisionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1EEA53620F9E67800C2A0AF /* PBXTargetDependency */ = {
+		A12AA28920F9E925000CAAFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A1EEA52120F9E67700C2A0AF /* colourvision */;
-			targetProxy = A1EEA53520F9E67800C2A0AF /* PBXContainerItemProxy */;
+			target = A12AA27220F9E924000CAAFE /* colourvision */;
+			targetProxy = A12AA28820F9E925000CAAFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1EEA52B20F9E67800C2A0AF /* Main.storyboard */ = {
+		A12AA27A20F9E924000CAAFE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1EEA52C20F9E67800C2A0AF /* Base */,
+				A12AA27B20F9E924000CAAFE /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12AA27F20F9E925000CAAFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12AA28020F9E925000CAAFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A1EEA53B20F9E67800C2A0AF /* Debug */ = {
+		A12AA28E20F9E925000CAAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +374,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -383,16 +393,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A1EEA53C20F9E67800C2A0AF /* Release */ = {
+		A12AA28F20F9E925000CAAFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,7 +434,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -437,129 +447,128 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A1EEA53E20F9E67800C2A0AF /* Debug */ = {
+		A12AA29120F9E925000CAAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6076F8753F4AFD32587B2813 /* Pods-colourvision.debug.xcconfig */;
+			baseConfigurationReference = E42070AD5B481B19F594174A /* Pods-colourvision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = colourvision/colourvision.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NUXWT6SEGG;
 				INFOPLIST_FILE = colourvision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvision;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.ios.colourvision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A1EEA53F20F9E67800C2A0AF /* Release */ = {
+		A12AA29220F9E925000CAAFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFB2CCB546678DE3894D171F /* Pods-colourvision.release.xcconfig */;
+			baseConfigurationReference = 0E454F9AE65400AD93F26161 /* Pods-colourvision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = colourvision/colourvision.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NUXWT6SEGG;
 				INFOPLIST_FILE = colourvision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvision;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.ios.colourvision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A1EEA54120F9E67800C2A0AF /* Debug */ = {
+		A12AA29420F9E925000CAAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 714A6AE688BFA6B36DB460D1 /* Pods-colourvisionTests.debug.xcconfig */;
+			baseConfigurationReference = 5D824376952D56CD282D4FD9 /* Pods-colourvisionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NUXWT6SEGG;
 				INFOPLIST_FILE = colourvisionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvisionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.ios.colourvisionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colourvision.app/Contents/MacOS/colourvision";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colourvision.app/colourvision";
 			};
 			name = Debug;
 		};
-		A1EEA54220F9E67800C2A0AF /* Release */ = {
+		A12AA29520F9E925000CAAFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D849AEF8CB068E4DFC34D87A /* Pods-colourvisionTests.release.xcconfig */;
+			baseConfigurationReference = A6A8719C00E86D2717305D77 /* Pods-colourvisionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NUXWT6SEGG;
 				INFOPLIST_FILE = colourvisionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvisionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.ios.colourvisionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colourvision.app/Contents/MacOS/colourvision";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colourvision.app/colourvision";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1EEA51D20F9E67600C2A0AF /* Build configuration list for PBXProject "colourvision" */ = {
+		A12AA26E20F9E924000CAAFE /* Build configuration list for PBXProject "colourvision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1EEA53B20F9E67800C2A0AF /* Debug */,
-				A1EEA53C20F9E67800C2A0AF /* Release */,
+				A12AA28E20F9E925000CAAFE /* Debug */,
+				A12AA28F20F9E925000CAAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1EEA53D20F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvision" */ = {
+		A12AA29020F9E925000CAAFE /* Build configuration list for PBXNativeTarget "colourvision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1EEA53E20F9E67800C2A0AF /* Debug */,
-				A1EEA53F20F9E67800C2A0AF /* Release */,
+				A12AA29120F9E925000CAAFE /* Debug */,
+				A12AA29220F9E925000CAAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1EEA54020F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvisionTests" */ = {
+		A12AA29320F9E925000CAAFE /* Build configuration list for PBXNativeTarget "colourvisionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1EEA54120F9E67800C2A0AF /* Debug */,
-				A1EEA54220F9E67800C2A0AF /* Release */,
+				A12AA29420F9E925000CAAFE /* Debug */,
+				A12AA29520F9E925000CAAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1EEA51A20F9E67600C2A0AF /* Project object */;
+	rootObject = A12AA26B20F9E924000CAAFE /* Project object */;
 }
