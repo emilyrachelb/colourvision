@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1EEA52620F9E67700C2A0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EEA52520F9E67700C2A0AF /* AppDelegate.swift */; };
+		A1EEA52820F9E67700C2A0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EEA52720F9E67700C2A0AF /* ViewController.swift */; };
+		A1EEA52A20F9E67800C2A0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EEA52920F9E67800C2A0AF /* Assets.xcassets */; };
+		A1EEA52D20F9E67800C2A0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EEA52B20F9E67800C2A0AF /* Main.storyboard */; };
+		A1EEA53920F9E67800C2A0AF /* colourvisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EEA53820F9E67800C2A0AF /* colourvisionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1EEA53520F9E67800C2A0AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EEA51A20F9E67600C2A0AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EEA52120F9E67700C2A0AF;
+			remoteInfo = colourvision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1EEA52220F9E67700C2A0AF /* colourvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colourvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EEA52520F9E67700C2A0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1EEA52720F9E67700C2A0AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1EEA52920F9E67800C2A0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1EEA52C20F9E67800C2A0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1EEA52E20F9E67800C2A0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EEA52F20F9E67800C2A0AF /* colourvision.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = colourvision.entitlements; sourceTree = "<group>"; };
+		A1EEA53420F9E67800C2A0AF /* colourvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colourvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EEA53820F9E67800C2A0AF /* colourvisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourvisionTests.swift; sourceTree = "<group>"; };
+		A1EEA53A20F9E67800C2A0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EEA51F20F9E67700C2A0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EEA53120F9E67800C2A0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1EEA51920F9E67600C2A0AF = {
+			isa = PBXGroup;
+			children = (
+				A1EEA52420F9E67700C2A0AF /* colourvision */,
+				A1EEA53720F9E67800C2A0AF /* colourvisionTests */,
+				A1EEA52320F9E67700C2A0AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EEA52320F9E67700C2A0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EEA52220F9E67700C2A0AF /* colourvision.app */,
+				A1EEA53420F9E67800C2A0AF /* colourvisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EEA52420F9E67700C2A0AF /* colourvision */ = {
+			isa = PBXGroup;
+			children = (
+				A1EEA52520F9E67700C2A0AF /* AppDelegate.swift */,
+				A1EEA52720F9E67700C2A0AF /* ViewController.swift */,
+				A1EEA52920F9E67800C2A0AF /* Assets.xcassets */,
+				A1EEA52B20F9E67800C2A0AF /* Main.storyboard */,
+				A1EEA52E20F9E67800C2A0AF /* Info.plist */,
+				A1EEA52F20F9E67800C2A0AF /* colourvision.entitlements */,
+			);
+			path = colourvision;
+			sourceTree = "<group>";
+		};
+		A1EEA53720F9E67800C2A0AF /* colourvisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EEA53820F9E67800C2A0AF /* colourvisionTests.swift */,
+				A1EEA53A20F9E67800C2A0AF /* Info.plist */,
+			);
+			path = colourvisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1EEA52120F9E67700C2A0AF /* colourvision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EEA53D20F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvision" */;
+			buildPhases = (
+				A1EEA51E20F9E67700C2A0AF /* Sources */,
+				A1EEA51F20F9E67700C2A0AF /* Frameworks */,
+				A1EEA52020F9E67700C2A0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colourvision;
+			productName = colourvision;
+			productReference = A1EEA52220F9E67700C2A0AF /* colourvision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1EEA53320F9E67800C2A0AF /* colourvisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EEA54020F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvisionTests" */;
+			buildPhases = (
+				A1EEA53020F9E67800C2A0AF /* Sources */,
+				A1EEA53120F9E67800C2A0AF /* Frameworks */,
+				A1EEA53220F9E67800C2A0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EEA53620F9E67800C2A0AF /* PBXTargetDependency */,
+			);
+			name = colourvisionTests;
+			productName = colourvisionTests;
+			productReference = A1EEA53420F9E67800C2A0AF /* colourvisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EEA51A20F9E67600C2A0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Samantha Emily-Rachel Belnavis";
+				TargetAttributes = {
+					A1EEA52120F9E67700C2A0AF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A1EEA53320F9E67800C2A0AF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A1EEA52120F9E67700C2A0AF;
+					};
+				};
+			};
+			buildConfigurationList = A1EEA51D20F9E67600C2A0AF /* Build configuration list for PBXProject "colourvision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EEA51920F9E67600C2A0AF;
+			productRefGroup = A1EEA52320F9E67700C2A0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EEA52120F9E67700C2A0AF /* colourvision */,
+				A1EEA53320F9E67800C2A0AF /* colourvisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EEA52020F9E67700C2A0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EEA52A20F9E67800C2A0AF /* Assets.xcassets in Resources */,
+				A1EEA52D20F9E67800C2A0AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EEA53220F9E67800C2A0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EEA51E20F9E67700C2A0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EEA52820F9E67700C2A0AF /* ViewController.swift in Sources */,
+				A1EEA52620F9E67700C2A0AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EEA53020F9E67800C2A0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EEA53920F9E67800C2A0AF /* colourvisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1EEA53620F9E67800C2A0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EEA52120F9E67700C2A0AF /* colourvision */;
+			targetProxy = A1EEA53520F9E67800C2A0AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1EEA52B20F9E67800C2A0AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EEA52C20F9E67800C2A0AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1EEA53B20F9E67800C2A0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1EEA53C20F9E67800C2A0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1EEA53E20F9E67800C2A0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = colourvision/colourvision.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = colourvision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		A1EEA53F20F9E67800C2A0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = colourvision/colourvision.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = colourvision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		A1EEA54120F9E67800C2A0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = colourvisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colourvision.app/Contents/MacOS/colourvision";
+			};
+			name = Debug;
+		};
+		A1EEA54220F9E67800C2A0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = colourvisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.macos.colourvisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colourvision.app/Contents/MacOS/colourvision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EEA51D20F9E67600C2A0AF /* Build configuration list for PBXProject "colourvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EEA53B20F9E67800C2A0AF /* Debug */,
+				A1EEA53C20F9E67800C2A0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EEA53D20F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EEA53E20F9E67800C2A0AF /* Debug */,
+				A1EEA53F20F9E67800C2A0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EEA54020F9E67800C2A0AF /* Build configuration list for PBXNativeTarget "colourvisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EEA54120F9E67800C2A0AF /* Debug */,
+				A1EEA54220F9E67800C2A0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EEA51A20F9E67600C2A0AF /* Project object */;
+}
