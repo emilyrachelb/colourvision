@@ -7,6 +7,7 @@
 #   Description:    Downloads a set of basic colour swatches
 
 import os
+import threading
 from DictQuery import Query
 
 # JSON Dictionary containing the colour information:
@@ -197,87 +198,130 @@ for key in pinkColours:
     counter = 1
     colourName = key
     colourCode = Query(pinkColours).get("{}/colour".format(colourName))
-
-    for i in range (0, 100):
-        os.system("wget -qO colours/pink/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    os.system("wget -qO colours/pink/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
+    
+    for i in range (0, 999):
         counter = counter + 1
+        os.system("cp colours/pink/{}-1.jpeg colours/pink/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in redColours:
     counter = 1
     colourName = key
     colourCode = Query(redColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/red/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range (0, 100):
-        os.system("wget -qO colours/red/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/red/{}-1.jpeg colours/red/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in orangeColours:
     counter = 1
     colourName = key
     colourCode = Query(orangeColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/orange/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/orange/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/orange/{}-1.jpeg colours/orange/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in yellowColours:
     counter = 1
     colourName = key
     colourCode = Query(yellowColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/yellow/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/yellow/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/yellow/{}-1.jpeg colours/yellow/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in brownColours:
     counter = 1
     colourName = key
     colourCode = Query(brownColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/brown/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/brown/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/brown/{}-1.jpeg colours/brown/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in greenColours:
     counter = 1
     colourName = key
     colourCode = Query(greenColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/green/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/green/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/green/{}-1.jpeg colours/green/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in cyanColours:
     counter = 1
     colourName = key
     colourCode = Query(cyanColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/cyan/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/cyan/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/cyan/{}-1.jpeg colours/cyan/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in blueColours:
     counter = 1
     colourName = key
     colourCode = Query(blueColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/blue/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/blue/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/blue/{}-1.jpeg colours/blue/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in purpleColours:
     counter = 1
     colourName = key
     colourCode = Query(purpleColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/purple/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/purple/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/purple/{}-1.jpeg colours/purple/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in whiteColours:
     counter = 1
     colourName = key
     colourCode = Query(whiteColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/white/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/white/{}-{}.jpeg https://placehold.it/100/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/white/{}-1.jpeg colours/white/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))
 
 for key in greyColours:
     counter = 1
     colourName = key
     colourCode = Query(greyColours).get("{}/colour".format(colourName))
+    os.system("wget -qO colours/grey/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    print("getting {}".format(colourName))
 
-    for i in range(0, 100):
-        os.system("wget -qO colours/grey/{}-{}.jpeg https://placehold.it/1024/{}/000000?text=+".format(colourName, counter, colourCode))
+    for i in range(0, 999):
+        counter = counter + 1
+        os.system("cp colours/grey/{}-1.jpeg colours/grey/{}-{}.jpeg".format(colourName, colourName, counter))
+    print("finished getting {}".format(colourName))

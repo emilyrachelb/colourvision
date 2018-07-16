@@ -486,7 +486,7 @@ def get_random_cached_bottlenecks(sess, image_lists, how_many, category,
                                             image_index, image_dir, category,
                                             bottleneck_dir, jpeg_data_tensor,
                                             bottleneck_tensor)
-      ground_truth = np.zeros(class_count, dtype=np.float32)
+      ground_truth = np.zeros(class_count, dtype=np.float64)
       ground_truth[label_index] = 1.0
       bottlenecks.append(bottleneck)
       ground_truths.append(ground_truth)
@@ -502,7 +502,7 @@ def get_random_cached_bottlenecks(sess, image_lists, how_many, category,
                                               image_index, image_dir, category,
                                               bottleneck_dir, jpeg_data_tensor,
                                               bottleneck_tensor)
-        ground_truth = np.zeros(class_count, dtype=np.float32)
+        ground_truth = np.zeros(class_count, dtype=np.float64)
         ground_truth[label_index] = 1.0
         bottlenecks.append(bottleneck)
         ground_truths.append(ground_truth)
@@ -557,7 +557,7 @@ def get_random_distorted_bottlenecks(
     bottleneck = run_bottleneck_on_image(sess, distorted_image_data,
                                          resized_input_tensor,
                                          bottleneck_tensor)
-    ground_truth = np.zeros(class_count, dtype=np.float32)
+    ground_truth = np.zeros(class_count, dtype=np.float64)
     ground_truth[label_index] = 1.0
     bottlenecks.append(bottleneck)
     ground_truths.append(ground_truth)
@@ -638,7 +638,7 @@ def add_input_distortions(flip_left_right, random_crop, random_scale,
 
   jpeg_data = tf.placeholder(tf.string, name='DistortJPGInput')
   decoded_image = tf.image.decode_jpeg(jpeg_data, channels=MODEL_INPUT_DEPTH)
-  decoded_image_as_float = tf.cast(decoded_image, dtype=tf.float32)
+  decoded_image_as_float = tf.cast(decoded_image, dtype=tf.float64)
   decoded_image_4d = tf.expand_dims(decoded_image_as_float, 0)
   margin_scale = 1.0 + (random_crop / 100.0)
   resize_scale = 1.0 + (random_scale / 100.0)
@@ -709,7 +709,7 @@ def add_final_training_ops(class_count, final_tensor_name, bottleneck_tensor):
         bottleneck_tensor, shape=[None, BOTTLENECK_TENSOR_SIZE],
         name='BottleneckInputPlaceholder')
 
-    ground_truth_input = tf.placeholder(tf.float32,
+    ground_truth_input = tf.placeholder(tf.float64,
                                         [None, class_count],
                                         name='GroundTruthInput')
 
@@ -762,7 +762,7 @@ def add_evaluation_step(result_tensor, ground_truth_tensor):
       correct_prediction = tf.equal(
           prediction, tf.argmax(ground_truth_tensor, 1))
     with tf.name_scope('accuracy'):
-      evaluation_step = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+      evaluation_step = tf.reduce_mean(tf.cast(correct_prediction, tf.float64))
   tf.summary.scalar('accuracy', evaluation_step)
   return evaluation_step, prediction
 
