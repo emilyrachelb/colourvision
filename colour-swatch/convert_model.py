@@ -16,6 +16,7 @@ from os.path import dirname
 import numpy as np
 import tensorflow as tf
 from tensorflow.core.framework import graph_pb2
+import coremltools
 
 # load the TF graph definition
 tf_model_path = './colour_model_graph.pb'
@@ -73,7 +74,7 @@ import tfcoreml
 input_tensor_shapes = {"Mul:0": [1, 299, 299, 3]} # batch size is 1
 
 # output coreml model path
-coreml_model_file = './colour_model.mlmodel'
+coreml_model_file = './ColourModel.mlmodel'
 
 # The TF model's output tensor name
 output_tensor_names = ['final_result:0']
@@ -89,3 +90,10 @@ coreml_model = tfcoreml.convert(
         green_bias = -1,
         blue_bias = -1,
         image_scale = 2.0/255.0)
+
+model = coremltools.models.MLModel(coreml_model_file)
+model.author = "Samantha Emily-Rachel Belnavis"
+model.license = "MIT"
+model.short_description = "Colour Recognition CoreML Model"
+
+model.save(coreml_model_file)

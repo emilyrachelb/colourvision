@@ -1,7 +1,4 @@
 PODS:
-  - Alamofire (4.5.1)
-  - AlamofireImage (3.3.1):
-    - Alamofire (~> 4.5)
   - KSCrash/Core (1.15.18):
     - KSCrash/Reporting/Filters/Basic
   - KSCrash/Recording (1.15.18):
@@ -12,13 +9,6 @@ PODS:
   - KSCrash/Reporting/Filters/Basic (1.15.18):
     - KSCrash/Recording
     - KSCrash/Reporting/Filters/Base
-  - Material (2.15.0):
-    - Material/Core (= 2.15.0)
-  - Material/Core (2.15.0):
-    - Motion (~> 1.3.0)
-  - Motion (1.3.5):
-    - Motion/Core (= 1.3.5)
-  - Motion/Core (1.3.5)
   - Sentry (3.11.1):
     - Sentry/Core (= 3.11.1)
     - Sentry/KSCrash (= 3.11.1)
@@ -27,18 +17,11 @@ PODS:
     - KSCrash/Core (~> 1.15.12)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5.1)
-  - AlamofireImage (~> 3.3.0)
-  - Material (~> 2.2)
   - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.11.1`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Alamofire
-    - AlamofireImage
     - KSCrash
-    - Material
-    - Motion
 
 EXTERNAL SOURCES:
   Sentry:
@@ -51,13 +34,9 @@ CHECKOUT OPTIONS:
     :tag: 3.11.1
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
   KSCrash: 5394936f41e5c1ef7b79cf79b30d53299b0c160e
-  Material: 00e32bb5e61b3f749044897b2d93acd8bf33faa4
-  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
   Sentry: 1d8e03901b062b0317174efefa7f97a4ab16fa9a
 
-PODFILE CHECKSUM: 40e704796e9e5219235b25347193c2d4835f357e
+PODFILE CHECKSUM: 4b4e5391e659d36f6b2251e30d8571aa5d68753c
 
 COCOAPODS: 1.5.3

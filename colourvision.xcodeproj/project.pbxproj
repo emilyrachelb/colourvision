@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		073339A24030C2180993E5AF /* Pods_colourvisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639B94440FEB7EAB80B757F /* Pods_colourvisionTests.framework */; };
+		A1192ED620FD20A300216CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1192ED520FD20A300216CBA /* ViewController.swift */; };
 		A12AA27720F9E924000CAAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AA27620F9E924000CAAFE /* AppDelegate.swift */; };
-		A12AA27920F9E924000CAAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AA27820F9E924000CAAFE /* ViewController.swift */; };
 		A12AA27C20F9E924000CAAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AA27A20F9E924000CAAFE /* Main.storyboard */; };
 		A12AA27E20F9E925000CAAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12AA27D20F9E925000CAAFE /* Assets.xcassets */; };
 		A12AA28120F9E925000CAAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AA27F20F9E925000CAAFE /* LaunchScreen.storyboard */; };
 		A12AA28C20F9E925000CAAFE /* colourvisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12AA28B20F9E925000CAAFE /* colourvisionTests.swift */; };
+		A173BF4A20FC3ECB0052920F /* ColourModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A173BF4920FC3ECA0052920F /* ColourModel.mlmodel */; };
 		E188F28AA3231D9D63E1C86E /* Pods_colourvision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E81F7DA8A126A823DD6A732 /* Pods_colourvision.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,9 +33,9 @@
 		5D824376952D56CD282D4FD9 /* Pods-colourvisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvisionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colourvisionTests/Pods-colourvisionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E81F7DA8A126A823DD6A732 /* Pods_colourvision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colourvision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6639B94440FEB7EAB80B757F /* Pods_colourvisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colourvisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1192ED520FD20A300216CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A12AA27320F9E924000CAAFE /* colourvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colourvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AA27620F9E924000CAAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A12AA27820F9E924000CAAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A12AA27B20F9E924000CAAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12AA27D20F9E925000CAAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12AA28020F9E925000CAAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		A12AA28720F9E925000CAAFE /* colourvisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colourvisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AA28B20F9E925000CAAFE /* colourvisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourvisionTests.swift; sourceTree = "<group>"; };
 		A12AA28D20F9E925000CAAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A173BF4920FC3ECA0052920F /* ColourModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ColourModel.mlmodel; sourceTree = "<group>"; };
 		A6A8719C00E86D2717305D77 /* Pods-colourvisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvisionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-colourvisionTests/Pods-colourvisionTests.release.xcconfig"; sourceTree = "<group>"; };
 		E42070AD5B481B19F594174A /* Pods-colourvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colourvision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colourvision/Pods-colourvision.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,10 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				A12AA27620F9E924000CAAFE /* AppDelegate.swift */,
-				A12AA27820F9E924000CAAFE /* ViewController.swift */,
+				A1192ED520FD20A300216CBA /* ViewController.swift */,
 				A12AA27A20F9E924000CAAFE /* Main.storyboard */,
 				A12AA27D20F9E925000CAAFE /* Assets.xcassets */,
 				A12AA27F20F9E925000CAAFE /* LaunchScreen.storyboard */,
+				A173BF4920FC3ECA0052920F /* ColourModel.mlmodel */,
 				A12AA28220F9E925000CAAFE /* Info.plist */,
 			);
 			path = colourvision;
@@ -235,20 +238,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-colourvision/Pods-colourvision-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework",
-				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
-				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSCrash.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12AA27920F9E924000CAAFE /* ViewController.swift in Sources */,
+				A1192ED620FD20A300216CBA /* ViewController.swift in Sources */,
+				A173BF4A20FC3ECB0052920F /* ColourModel.mlmodel in Sources */,
 				A12AA27720F9E924000CAAFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,7 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.ios.colourvision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -489,7 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.code.ios.colourvision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
