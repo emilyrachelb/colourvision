@@ -1,2 +1,2 @@
-*.py linguist-vendored=true
-*.rb linguist-vendored=true
+*.py linguist-vendored=false
+*.rb linguist-vendored=false
